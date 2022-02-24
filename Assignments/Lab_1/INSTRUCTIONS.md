@@ -3,7 +3,7 @@ Calculation of structural descriptors of complex networks
 
 The attached file "A1-networks.zip" contains several undirected complex networks in Pajek format (*.net), grouped in three categories: toy (sample networks), model (networks generated from models), and real (real networks). The objective is the calculation of the main structural descriptors for all the provided networks. More precisely, you have to calculate at least:
 
-a) Numerical descriptors of networks
+a) Numerical descriptors of networks [Done]
 
 Number of nodes [Done]
 Number of edges [Done]

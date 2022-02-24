@@ -1,11 +1,22 @@
 import igraph 
 import numpy as np 
 
-class NumericalGraphDescriptor:
+class NumericalNetworkDescriptor:
+    """ Loads .net file and calculates arbitrary Numerical Descriptors of the Networks.
+    
+    PARAMETERS:
+    -----------
+    
+    in_file : str
+              path to the '.net' file to be loaded.
+    
+    RETURNS:
+    --------
+    d : dict
+        returns the summary of the loaded network in a dictionary. 
+    
     """
-    File --> Load --> Graph --> Do some Statistics --> Output File
-    """
-    def __init__(self , in_file: str) -> dict:
+    def __init__(self , in_file: str):
         self.in_file = in_file.split('/')[-1]
         self.graph = igraph.read(in_file, format='pajek')
         self.folder = in_file.split('/')[1]
@@ -47,6 +58,7 @@ class NumericalGraphDescriptor:
     # avg degree
     def _avg_degree(self) -> float:
         return round(np.mean(self.graph.degree()), self.decimals)
+    # transitivity -> average cluster coefficient. 
     def _transitivity(self) -> float:
         return round(self.graph.transitivity_avglocal_undirected(), self.decimals)
     # putting it all together 

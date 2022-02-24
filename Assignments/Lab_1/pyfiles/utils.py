@@ -2,7 +2,7 @@
 import time
 from glob import glob
 import pandas as pd
-from pyfiles.numerical_descriptor import NumericalGraphDescriptor
+from pyfiles.numerical_descriptor import NumericalNetworkDescriptor
 
 
 def make_df_time(path: str) -> pd.DataFrame:
@@ -26,10 +26,10 @@ def make_df_time(path: str) -> pd.DataFrame:
     gtic = time.time()
     for idx,graphs in enumerate(file_list):
         tic = time.time()
-        tmp = NumericalGraphDescriptor(graphs)
+        tmp = NumericalNetworkDescriptor(graphs)
         holder.append(tmp._summary())
         toc = time.time()
-        holder[idx]['Time'] = (toc-tic)
+        holder[idx]['Time'] = round((toc-tic), 4)
     gtoc = time.time()
     print(f"The elapsed time is: {gtoc-gtic:.4f}")
     return pd.DataFrame(holder)
@@ -55,5 +55,5 @@ def join_csvs(path):
     df_ls = [pd.read_csv(x) for x in ls]
     df = pd.concat(df_ls)
     df = df.drop('Unnamed: 0', axis=1)
-    #df.to_csv('res/combined_data.csv') # optional 
+    df.to_csv('res/combined_data.csv') # optional 
     return df
