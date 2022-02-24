@@ -1,6 +1,7 @@
 # libs
 import time
 from glob import glob
+from tqdm import tqdm
 import pandas as pd
 from pyfiles.numerical_descriptor import NumericalNetworkDescriptor
 
@@ -24,7 +25,7 @@ def make_df_time(path: str) -> pd.DataFrame:
     file_list = glob(new_path)
     holder = []
     gtic = time.time()
-    for idx,graphs in enumerate(file_list):
+    for idx,graphs in enumerate(tqdm(file_list)):
         tic = time.time()
         tmp = NumericalNetworkDescriptor(graphs)
         holder.append(tmp._summary())
