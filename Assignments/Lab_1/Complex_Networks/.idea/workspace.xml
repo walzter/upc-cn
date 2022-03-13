@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c97df242-0ad1-4ae8-9977-25e0b0847cb5" name="Changes" comment="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 80% of the second task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Descriptors/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Descriptors/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Descriptors/results/Airports_Descriptors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/1_Descriptors/results/Airports_Descriptors.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26AZH2oUqKwAWShfBeGUJIyeDQm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1_Descriptors" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="experiments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Complex_Networks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Descriptors/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Descriptors/utils/experiments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Complex_Networks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Descriptors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Descriptors/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.experiments" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c97df242-0ad1-4ae8-9977-25e0b0847cb5" name="Changes" comment="" />
+      <created>1646868262956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646868262956</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Networks Data for the first task - Compute descriptors in networks">
+      <created>1646868607912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646868607912</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Networks Data for the first task - Compute descriptors in networks">
+      <created>1646869416901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646869416901</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Networks Data for the first task - Compute descriptors in networks">
+      <created>1646869484063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646869484063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Networks Data for the first task - Compute descriptors in networks">
+      <created>1646869814728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646869814728</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Networks Data for the first task - Compute descriptors in networks">
+      <created>1646870043915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646870043915</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Networks Data for the first task - Compute descriptors in networks">
+      <created>1646870206712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646870206712</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Networks Data for the first task - Compute descriptors in networks">
+      <created>1646873622048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646873622048</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Read data complete">
+      <created>1646888370905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646888370905</updated>
+    </task>
+    <task id="LOCAL-00009" summary="computing descriptors">
+      <created>1646890767004</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646890767004</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Successfully computed descriptors">
+      <created>1646895009608</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646895009608</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Successfully computed descriptors">
+      <created>1646995940331</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646995940331</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Successfully computed descriptors completed">
+      <created>1646996134145</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646996134145</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports">
+      <created>1647009290474</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647009290474</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports">
+      <created>1647023682961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647023682962</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports">
+      <created>1647027864469</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647027864469</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports">
+      <created>1647050394443</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647050394443</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports">
+      <created>1647050418514</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1647050418514</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports">
+      <created>1647083183718</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1647083183718</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 50% of the task">
+      <created>1647086095852</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1647086095852</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 50% of the task">
+      <created>1647086671299</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1647086671299</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 50% of the task">
+      <created>1647094060769</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1647094060769</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 80% of the second task">
+      <created>1647112741984</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1647112741984</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Networks Data for the first task - Compute descriptors in networks" />
+    <MESSAGE value="Read data complete" />
+    <MESSAGE value="computing descriptors" />
+    <MESSAGE value="Successfully computed descriptors" />
+    <MESSAGE value="Successfully computed descriptors completed" />
+    <MESSAGE value="Starting with the second task - Computing descriptors for the real networks -&gt; Airports" />
+    <MESSAGE value="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 50% of the task" />
+    <MESSAGE value="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 80% of the second task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting with the second task - Computing descriptors for the real networks -&gt; Airports in 80% of the second task" />
+  </component>
+</project>
