@@ -8,6 +8,11 @@ matplotlib = "*"
 numpy = "*"
 igraph = "*"
 numba = "*"
+pybtex = "*"
+ipykernel = "*"
+termcolor = "*"
+leidenalg = "*"
+cairocffi = "*"
 
 [dev-packages]
 
