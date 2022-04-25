@@ -13,6 +13,8 @@ ipykernel = "*"
 termcolor = "*"
 leidenalg = "*"
 cairocffi = "*"
+pillow = "*"
+texttable = "*"
 
 [dev-packages]
 
