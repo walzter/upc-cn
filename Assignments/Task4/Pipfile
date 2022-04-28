@@ -15,6 +15,7 @@ leidenalg = "*"
 cairocffi = "*"
 pillow = "*"
 texttable = "*"
+seaborn = "*"
 
 [dev-packages]
 
