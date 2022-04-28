@@ -20,6 +20,7 @@ class SIS:
         self.mu = mu
         self.beta = beta
         self.n_iter = n_iter
+        self.t_trans = 100
         self.start_graph = None
         self.graph = None
         self.layout = None
@@ -39,8 +40,6 @@ class SIS:
         layout = g.layout("kk")
         ## Choose a random subset of nodes of size NUM_INFECTED, without replacement
         nodes = np.arange(0,self.N)
-        #possible_infected_nodes = np.random.uniform(0,1,self.N)
-        #infected_nodes_idx = nodes[possible_infected_nodes < self.P]
         infected_nodes_idx = np.random.choice(nodes, size=int(self.P*self.N), replace=False)
         self.init_infected = infected_nodes_idx
         ## Sus
@@ -178,7 +177,8 @@ class SIS:
                 header_id = f"|{it_txt:^24s} | {inf_txt:^24s} | {sus_txt:^24s} | {s2i_txt:^24s} | {i2s_txt:^24s} | {ir_txt:^24s} |" ## use :^24s to make it centered and 24 chars long
                 ## print the summary statistics
                 print(header_id);print(dashes)
-        return g, self.inf_rate
+        rho_avg = np.mean(self.inf_rate[-(int(self.n_iter-self.t_trans)):])
+        return rho_avg
 
     ## make the pipeline to run all: _initiate_network, _run_sis
     def _model(self) -> ig.Graph:
