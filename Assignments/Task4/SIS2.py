@@ -4,7 +4,7 @@ from termcolor import colored
 import numpy as np
 import random
 
-class SIS:
+class SIS2:
     def __init__(
         self,
         g: ig.Graph,
@@ -31,12 +31,14 @@ class SIS:
         self.verbose = verbose
     
     
+    
+    
     def _start_network(self) ->ig.Graph:
         """
         Initiates the Random Graph with the desired parameters.
         Sets the infected & susceptible nodes in the graph. 
         """
-        g = self.graph
+        #g = self.graph
         #g = ig.Graph.Erdos_Renyi(self.N, p=0.2)
         ## Choose a random subset of nodes of size NUM_INFECTED, without replacement
         nodes = np.arange(0,self.N)
@@ -46,11 +48,11 @@ class SIS:
         susceptible_nodes_idx = np.setdiff1d(nodes, infected_nodes_idx).tolist()
         ## set this attribute to all nodes
         ## ~~ INFECTED
-        g.vs[infected_nodes_idx.tolist()]["status"] = "I"  ## set the corresponding label
-        g.vs[infected_nodes_idx.tolist()]["color"] = "red"  ## set the corresponding color
+        #g.vs[infected_nodes_idx.tolist()]["status"] = "I"  ## set the corresponding label
+        #g.vs[infected_nodes_idx.tolist()]["color"] = "red"  ## set the corresponding color
         ## ~~ Susceptible
-        g.vs[susceptible_nodes_idx]["status"] = "S"
-        g.vs[susceptible_nodes_idx]["color"] = "green"
+        #g.vs[susceptible_nodes_idx]["status"] = "S"
+        #g.vs[susceptible_nodes_idx]["color"] = "green"
         if self.verbose:
             print(f"Number of Nodes: {self.N} | Initial Infected: {len(self.init_infected)} | Initial Susceptible: {len(susceptible_nodes_idx)}")
         return g
