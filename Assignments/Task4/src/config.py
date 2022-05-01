@@ -28,5 +28,5 @@ def main_config():
                 "seed":SEED,
                 "verbose":VERBOSITY,
                 }
-    COMBS = make_combinations(mus = [0.1, 0.5, 0.9], betas = np.arange(0,0.1,0.02), verbosity = VERBOSITY)
+    COMBS = make_combinations(mus = [0.1, 0.5, 0.9], betas = [0.00,0.1, 0.3,0.7,0.9], verbosity = VERBOSITY)
     return MC_SIS_CONFIG, N_REPS, COMBS
