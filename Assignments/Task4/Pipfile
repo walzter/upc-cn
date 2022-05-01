@@ -16,6 +16,8 @@ cairocffi = "*"
 pillow = "*"
 texttable = "*"
 seaborn = "*"
+networkx = "*"
+tqdm = "*"
 
 [dev-packages]
 

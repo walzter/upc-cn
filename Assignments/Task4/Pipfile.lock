@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8eae89cfcdac93ab95c2f5f64d38b22ca9763d2398b3ef27312eea56474dc089"
+            "sha256": "5cfaa76aac78d3edea570bec74ccca848abf32d30bc06c8e1ba8540788546cb4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -431,6 +431,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==1.5.5"
+        },
+        "networkx": {
+            "hashes": [
+                "sha256:1a1e8fe052cc1b4e0339b998f6795099562a264a13a5af7a32cad45ab9d4e126",
+                "sha256:4a52cf66aed221955420e11b3e2e05ca44196b4829aab9576d4d439212b0a14f"
+            ],
+            "index": "pypi",
+            "version": "==2.8"
         },
         "numba": {
             "hashes": [
@@ -921,6 +929,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==6.1"
+        },
+        "tqdm": {
+            "hashes": [
+                "sha256:40be55d30e200777a307a7585aee69e4eabb46b4ec6a4b4a5f2d9f11e7d5408d",
+                "sha256:74a2cdefe14d11442cedf3ba4e21a3b84ff9a2dbdc6cfae2c34addb2a14a5ea6"
+            ],
+            "index": "pypi",
+            "version": "==4.64.0"
         },
         "traitlets": {
             "hashes": [
