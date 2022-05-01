@@ -11,8 +11,8 @@ def main_config():
     MU = 0.1                      ## mu: spontaneous recovery probability 
     BETA = 0.02                   ## beta: infection probability, when S in contact with I (Transmission Rate)
     N = 500                       ## we will also need an initial population
-    T_MAX = 1000                  ## time step
-    T_TRANS = 900                 ## transition 
+    T_MAX = 100                  ## time step
+    T_TRANS = 90                 ## transition 
     N_REPS = 1                    ## number of repetitions for the simulation
 
     ## ------- ------- ------- -------

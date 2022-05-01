@@ -21,6 +21,6 @@ def MC_SIS(graph_dict: dict, mu_beta_comb:list,n_reps:int, params:dict, save_dir
                     graphs[graph][mu0][beta0].append(rho_) ## append the rho to the list
                 else:
                     graphs[graph][mu0][beta0].append(rho_) ## otherwise append the rho to the list
-    with open(f'./{save_dir}/{graph}.pickle', 'wb') as handle: ## save the results
-        pickle.dump(graphs, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        with open(f'./{save_dir}/{graph}.pickle', 'wb') as handle: ## save the results
+            pickle.dump(graphs, handle, protocol=pickle.HIGHEST_PROTOCOL)
     return graphs
