@@ -13,15 +13,16 @@ class SIS:
         mu: float,
         beta: float,
         n_iter:int,
+        t_trans:int,
         seed: int,
         verbose: bool,
     ):
-        self.N = initial_population
+        self.N = len(g.vs())
         self.P = initial_infected_population
         self.mu = mu
         self.beta = beta
         self.n_iter = n_iter
-        self.t_trans = 100
+        self.t_trans = t_trans
         self.graph = g
         self.layout = None
         self.sis_graph = None

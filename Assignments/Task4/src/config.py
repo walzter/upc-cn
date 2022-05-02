@@ -11,8 +11,9 @@ def main_config():
     MU = 0.1                      ## mu: spontaneous recovery probability 
     BETA = 0.02                   ## beta: infection probability, when S in contact with I (Transmission Rate)
     N = 500                       ## we will also need an initial population
-    T_MAX = 100                  ## time step
-    T_TRANS = 90                 ## transition 
+    TIME_STEPS = 10                  ## time step
+    PERCENTAGE = 0.9              ## Percentage tobe used as T_Trans
+    T_TRANS = int(TIME_STEPS - TIME_STEPS*PERCENTAGE)
     N_REPS = 1                    ## number of repetitions for the simulation
 
     ## ------- ------- ------- -------
@@ -24,9 +25,10 @@ def main_config():
                 "initial_infected_population":P,
                 "mu":MU,
                 "beta":BETA,
-                "n_iter":T_MAX,
+                "n_iter":TIME_STEPS,
+                "t_trans":T_TRANS,
                 "seed":SEED,
                 "verbose":VERBOSITY,
                 }
-    COMBS = make_combinations(mus = [0.1, 0.5, 0.9], betas = [0.00,0.1, 0.3,0.7,0.9], verbosity = VERBOSITY)
+    COMBS = make_combinations(mus = [0.1, 0.5, 0.9], betas = np.arange(0.00,1.02,0.02), verbosity = VERBOSITY)
     return MC_SIS_CONFIG, N_REPS, COMBS
